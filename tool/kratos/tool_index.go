@@ -67,6 +67,15 @@ var toolIndexs = []*Tool{
 		Requirements: []string{"wire"},
 	},
 	{
+		Name:      "genmodel",
+		Alias:     "kratos-gen-model",
+		BuildTime: time.Date(2019, 12, 22, 0, 0, 0, 0, time.Local),
+		Install:   "go get -u github.com/surongzhen/kratos/tool/kratos-gen-model",
+		Summary:   "数据库表model代码生成",
+		Platform:  []string{"darwin", "linux", "windows"},
+		Author:    "surongzhen",
+	},
+	{
 		Name:      "testcli",
 		Alias:     "testcli",
 		BuildTime: time.Date(2019, 9, 9, 0, 0, 0, 0, time.Local),
